@@ -1,6 +1,6 @@
 import { useScrollSpy } from "@/hooks/useScrollSpy"
 import { scrollToSection } from "@/utils/scrollToSection"
-import { menuItems } from "@/components/layout/Header/menuItems"
+import { menuItems } from "@/components/layout/Header/data/menuItems"
 
 export function Header() {
   const activeSection = useScrollSpy()

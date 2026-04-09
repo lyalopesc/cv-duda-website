@@ -1,6 +1,12 @@
-import { Globe, Mail, Phone } from "lucide-react"
+import { Globe, Mail, Phone, type LucideIcon } from "lucide-react"
 
-export const contactLinks = [
+interface ContactDataProps {
+  href: string
+  label: string
+  icon: LucideIcon
+}
+
+export const contactData: ContactDataProps[] = [
   { href: "tel:+5521988589611", label: "(21) 98858-9611", icon: Phone },
   {
     href: "mailto:maduggouveia@gmail.com",

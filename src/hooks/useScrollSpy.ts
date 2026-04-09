@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { menuItems } from "@/components/layout/Header/menuItems"
+import { menuItems } from "@/components/layout/Header/data/menuItems"
 
 export function useScrollSpy() {
   const [activeSection, setActiveSection] = useState("inicio")

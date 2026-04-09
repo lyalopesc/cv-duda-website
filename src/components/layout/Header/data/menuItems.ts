@@ -10,7 +10,7 @@ import {
 export const menuItems = [
   { id: "inicio", label: "Início", icon: Home },
   { id: "formacao", label: "Formação", icon: GraduationCap },
-  { id: "curriculo", label: "Currículo", icon: Briefcase },
+  { id: "experiencia", label: "Experiência", icon: Briefcase },
   { id: "habilidades", label: "Habilidades", icon: Sparkles },
   { id: "projetos-pessoais", label: "Projetos Pessoais", icon: Heart },
   { id: "portfolio", label: "Portfólio", icon: FolderOpen },
