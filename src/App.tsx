@@ -1,11 +1,13 @@
-import { Header } from "./components/layout/Header/Header"
-import { Hero } from "./components/layout/Hero/Hero"
+import { Education } from "./components/layout/Education"
+import { Header } from "./components/layout/Header"
+import { Hero } from "./components/layout/Hero"
 
 function App() {
   return (
-    <div className="h-screen snap-y snap-mandatory">
+    <div className="h-screen snap-y snap-mandatory overflow-y-auto">
       <Header />
       <Hero />
+      <Education />
     </div>
   )
 }
