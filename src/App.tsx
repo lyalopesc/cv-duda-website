@@ -7,7 +7,10 @@ import { Skills } from "./components/layout/Skills"
 
 function App() {
   return (
-    <div className="h-screen snap-y snap-mandatory overflow-y-auto">
+    <div
+      id="scroll-container"
+      className="h-screen snap-y snap-mandatory overflow-y-auto"
+    >
       <Header />
       <Hero />
       <Education />
