@@ -10,7 +10,7 @@ export function PersonalProjects() {
       <div className="max-w-6xl mx-auto w-full">
         <SectionTitle icon={Heart}>Projetos Pessoais</SectionTitle>
 
-        <div className="grid grid-cols-2 gap-12 mt-12">
+        <div className="grid grid-cols-2 gap-12 mt-12 ml-2 mr-2">
           {projectsData.map((project) => (
             <BaseCard>
               <a

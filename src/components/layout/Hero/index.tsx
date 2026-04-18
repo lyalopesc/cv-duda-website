@@ -1,13 +1,11 @@
+import { Section } from "@/components/shared/Section"
 import { About } from "./About"
 import { ContactCards } from "./ContactCards"
 import { ProfileImage } from "./ProfileImage"
 
 export function Hero() {
   return (
-    <section
-      id="inicio"
-      className="flex h-screen px-8 pt-60 pb-12 items-start snap-start relative"
-    >
+    <Section id="inicio">
       <div className="flex max-w-6xl mx-auto items-center gap-22">
         {/* Coluna Esquerda */}
         <div className="flex flex-1 flex-col justify-center gap-18">
@@ -19,6 +17,6 @@ export function Hero() {
           <ProfileImage />
         </div>
       </div>
-    </section>
+    </Section>
   )
 }

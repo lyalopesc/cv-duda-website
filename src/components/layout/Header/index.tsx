@@ -11,6 +11,9 @@ export function Header() {
         {menuItems.map((item) => {
           const Icon = item.icon
           const isActive = item.id === activeSection
+          const buttonClassName = isActive
+            ? "bg-[#18A999] hover:bg-[#18A999]"
+            : "bg-transparent hover:bg-purple-700"
 
           return (
             <button
@@ -18,7 +21,7 @@ export function Header() {
               onClick={() => {
                 scrollToSection(item.id)
               }}
-              className={`flex items-center gap-3 rounded-full px-4 py-3 min-h-12 text-white transition-colors hover:bg-purple-700 ${isActive ? "bg-[#18A999]" : "bg-transparent"}`}
+              className={`flex items-center gap-3 rounded-full px-4 py-3 min-h-12 text-white transition-colors ${buttonClassName}`}
             >
               <Icon className="w-5 h-5" />
               <span className="text-sm whitespace-nowrap">{item.label}</span>
