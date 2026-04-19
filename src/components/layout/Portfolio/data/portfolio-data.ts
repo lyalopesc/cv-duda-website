@@ -11,7 +11,7 @@ export interface BookLinkProps {
 }
 
 export interface BookGroupProps {
-  subtitle: string
+  subtitle?: string
   books: BookLinkProps[]
 }
 
@@ -25,7 +25,7 @@ export const BookListSections: BookListProps[] = [
     subtitle: "De diversos autores",
     groups: [
       {
-        subtitle: "Tayna Ferreira",
+        subtitle: "Tayná Ferreira",
         books: [
           {
             title: "Nas Asas dos Sonhos",
@@ -37,11 +37,11 @@ export const BookListSections: BookListProps[] = [
         subtitle: "Daniel Garcia Mendes",
         books: [
           {
-            title: "Meu coracao transborda em noites solitarias",
+            title: "Meu coração transborda em noites solitárias",
             href: "https://a.co/d/7HrhMdt",
           },
           {
-            title: "Quando o Por-do-Sol Vira Alvorecer",
+            title: "Quando o Pôr-do-Sol Vira Alvorecer",
             href: "https://a.co/d/2dpD2sw",
           },
         ],
@@ -75,7 +75,7 @@ export const BookListSections: BookListProps[] = [
             href: "https://a.co/d/6EtOW7g",
           },
           {
-            title: "Mia Jones Nao Ama Ninguem",
+            title: "Mia Jones Não Ama Ninguem",
             href: "https://a.co/d/a9sFSna",
           },
         ],
@@ -84,7 +84,7 @@ export const BookListSections: BookListProps[] = [
         subtitle: "Karoline Dias",
         books: [
           {
-            title: "Onde as Estrelas Nao Brilham",
+            title: "Onde as Estrelas Não Brilham",
             href: "https://a.co/d/eLskXLO",
           },
         ],
@@ -95,17 +95,16 @@ export const BookListSections: BookListProps[] = [
     subtitle: "Meus livros",
     groups: [
       {
-        subtitle: "Livia Medeiros",
         books: [
           {
             title: "O Sangue Derramado",
             href: "https://a.co/d/0MjXixY",
           },
           {
-            title: "Noites de Insonia",
+            title: "Noites de Insônia",
             href: "https://a.co/d/14WzLOR",
             secondaryLink: {
-              label: "fisico",
+              label: "físico",
               href: "https://loja.uiclap.com/titulo/ua38934/",
             },
           },
