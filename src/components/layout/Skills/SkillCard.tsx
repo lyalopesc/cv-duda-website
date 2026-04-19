@@ -5,12 +5,12 @@ export function SkillCard({ name, icon: Icon, subitems }: SkillsDataProps) {
   const hasSubitems = subitems && subitems.length > 0
 
   const layoutStyles = hasSubitems
-    ? "grid grid-cols-[0.9fr_1.1fr] gap-4 items-center"
+    ? "grid grid-cols-[0.9fr_1.1fr] gap-3 sm:gap-4 items-center"
     : "flex items-center justify-center text-center gap-2"
 
   return (
     <BaseCard>
-      <div className={`p-4 h-30 ${layoutStyles}`}>
+      <div className={`p-4 min-h-30 ${layoutStyles}`}>
         {/* Lado Esquerdo */}
         <div className="flex flex-col items-center gap-3">
           <div className="w-9 h-9 rounded-full bg-[#18A999] flex items-center justify-center shadow-sm">

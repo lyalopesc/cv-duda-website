@@ -7,7 +7,11 @@ interface ContactDataProps {
 }
 
 export const contactData: ContactDataProps[] = [
-  { href: "tel:+5521988589611", label: "(21) 98858-9611", icon: Phone },
+  {
+    href: "https://wa.me/5521988589611",
+    label: "(21) 98858-9611",
+    icon: Phone,
+  },
   {
     href: "mailto:maduggouveia@gmail.com",
     label: "maduggouveia@gmail.com",

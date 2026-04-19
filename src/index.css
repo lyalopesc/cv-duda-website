@@ -99,3 +99,12 @@
     @apply font-title;
   }
 }
+
+.scroll-area {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scroll-area::-webkit-scrollbar {
+  display: none;
+}

@@ -16,7 +16,7 @@ interface LanguageCardProps {
 export function LanguageCard({ language, level }: LanguageCardProps) {
   return (
     <BaseCard>
-      <div className="p-3 pl-4 h-21">
+      <div className="p-3 pl-4 min-h-21">
         <h4 className="mb-2">{language}</h4>
         <div className="flex items-center gap-4">
           <Progress

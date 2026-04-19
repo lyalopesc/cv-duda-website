@@ -13,11 +13,11 @@ export function Education() {
       <div className="max-w-6xl mx-auto w-full">
         <SectionTitle icon={GraduationCap}>Formação</SectionTitle>
 
-        <div className="grid grid-cols-2 gap-20 ml-2 mr-2">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-20 ml-0.5 sm:ml-2 mr-0.5 sm:mr-2">
           {/* Educação */}
           <div className="space-y-6">
             <SectionSubtitle>Educação</SectionSubtitle>
-            <div className="grid grid-cols-2 gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5">
               {educationData.map((data, index) => (
                 <EducationCard
                   key={index}
@@ -32,7 +32,7 @@ export function Education() {
           {/* Línguas */}
           <div className="space-y-6">
             <SectionSubtitle>Línguas</SectionSubtitle>
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col gap-4 sm:gap-5">
               {languageData.map((data, index) => (
                 <LanguageCard
                   key={index}
