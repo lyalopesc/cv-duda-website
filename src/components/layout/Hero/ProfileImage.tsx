@@ -1,4 +1,4 @@
-import fotoPerfil from "../assets/fotoPerfil.png"
+import fotoPerfil from "../../../assets/fotoPerfil.png"
 
 export function ProfileImage() {
   return (
