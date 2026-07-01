@@ -22,10 +22,10 @@ export function PortfolioCard({ item, category, onClick }: PortfolioCardProps) {
         <img
           src={coverImage}
           alt={item.title}
-          className="w-full h-44 sm:h-48 object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+          className="w-full h-26 sm:h-28 object-cover transition-transform duration-300 group-hover:scale-[1.02]"
         />
         <span className="p-3 block">
-          <span className="text-sm text-[#1F1F1F] block">{item.title}</span>
+          <span className="text-[11px] text-[#1F1F1F] block">{item.title}</span>
         </span>
       </button>
     </BaseCard>

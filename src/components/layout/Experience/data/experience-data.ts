@@ -14,8 +14,13 @@ export const experienceData: ExperienceDataProps[] = [
     category: "Tradução & Revisão",
     jobs: [
       {
+        company: "Editora CRV",
+        period: "2026 - Atual",
+        description: "Revisão e preparação de texto para diversos materiais didáticos, ficção, etc.",
+      },
+      {
         company: "Mobo Reader",
-        period: "2024 - Atual",
+        period: "2024 - 2026",
         description: "Tradução e revisão inglês/pt-br para diversas histórias.",
       },
       {

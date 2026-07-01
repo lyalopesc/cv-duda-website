@@ -219,6 +219,15 @@ export const portfolioCategories: PortfolioCategoryProps[] = [
         description:
           "Fanart de Selene Veronis, protagonista do livro 'Feras', de Lis Vilas Boas."
       },
+      {
+        id: "ilustracao-isis",
+        title: "FANART - Ísis Rossetti",
+        images: [
+          img("ilustracoes/isis-rossetti.webp"),
+        ],
+        description:
+          "Fanart de  Ísis Rossetti , protagonista do livro 'Porém Bruxa' e Apenas Humana, de Carol Chiovatto."
+      }
     ],
   },
   {

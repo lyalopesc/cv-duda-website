@@ -24,9 +24,9 @@ export function Portfolio() {
         <div className="max-w-6xl mx-auto w-full">
           <SectionTitle icon={FolderOpen}>Portfólio</SectionTitle>
 
-          <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-8 lg:gap-x-12 xl:gap-x-20 gap-y-10 sm:gap-y-12 lg:gap-y-16 ml-0.5 sm:ml-2 mr-0.5 sm:mr-2">
+          <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-8 lg:gap-x-12 xl:gap-x-13 gap-y-10 sm:gap-y-12 lg:gap-y-16 ml-0.5 sm:ml-2 mr-0.5 sm:mr-2">
             {portfolioCategories.map((category) => (
-              <div key={category.title} className="space-y-6">
+              <div key={category.title} className="space-y-5">
                 <SectionSubtitle
                   action={
                     category.title === "Diagramação" ? (
@@ -46,7 +46,7 @@ export function Portfolio() {
                   {category.title}
                 </SectionSubtitle>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5">
+                <div className="grid grid-cols-3 gap-4 sm:gap-4">
                   {category.items.map((item) => (
                     <PortfolioCard
                       key={item.id}
