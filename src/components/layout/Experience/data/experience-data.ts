@@ -16,7 +16,7 @@ export const experienceData: ExperienceDataProps[] = [
       {
         company: "Editora CRV",
         period: "2026 - Atual",
-        description: "Revisão e preparação de texto para diversos materiais didáticos, ficção, etc.",
+        description: "Revisão e preparação de texto para diversos materiais didáticos, ficção etc.",
       },
       {
         company: "Mobo Reader",
